@@ -37,3 +37,33 @@ git rebase master
 ```
 
 
+### Level 2.1
+
+```
+git checkout C4
+```
+
+### Level 2.2
+
+```
+git checkout bugFix^
+```
+
+### Level 2.3
+
+```
+git branch -f master C6
+git branch -f bugFix C0
+git checkout HEAD^
+```
+
+### Level 2.4
+
+```
+git reset HEAD~1
+git checkout pushed
+git revert pushed OR git revert HEAD
+```
+
+
+```
