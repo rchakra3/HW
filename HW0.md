@@ -207,7 +207,7 @@ git push
 
 
 ### To Origin And Beyond -- Advanced Git Remotes!
-#### Level 7.1 [Worth Looking at again to get this down to 6 steps!]
+#### Level 7.1
 
 ```
 git rebase side1 side2
