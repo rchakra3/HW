@@ -148,3 +148,106 @@ git branch -f one HEAD
 git checkout two
 git cherrypick C5 C4' C3' C2'
 ```
+
+
+### Push & Pull -- Git Remotes!
+#### Level 6.1
+
+```
+git clone
+```
+
+#### Level 6.2
+
+```
+git commit
+git checkout o/master
+git commit
+```
+
+#### Level 6.3
+
+```
+git fetch
+```
+
+#### Level 6.4
+
+```
+git pull
+```
+
+#### Level 6.5
+
+```
+git clone
+git fakeTeamwork 2
+git commit
+git pull
+```
+
+#### Level 6.6
+
+```
+git clone
+git commit
+git commit
+git push
+```
+
+#### Level 6.7
+
+```
+git clone
+git fakeTeamwork 1
+git commit
+git pull --rebase
+git push
+```
+
+
+### To Origin And Beyond -- Advanced Git Remotes!
+#### Level 7.1 [Worth Looking at again to get this down to 6 steps!]
+
+```
+git fetch origin master:master
+git rebase side2
+git rebase side1
+git rebase master
+git branch -f master side3
+git push origin master:master
+```
+
+#### Level 7.2 [Ugh merge]
+
+```
+git checkout master
+git pull
+git merge side1
+git merge side2
+git merge side3
+git push
+```
+
+#### Level 7.3 
+
+```
+git checkout -b side o/master
+git commit
+git pull --rebase
+git push
+```
+
+### Level 7.4
+
+```
+git push origin master
+git push origin foo
+```
+
+### Level 7.5
+
+```
+git push origin foo:master
+git push origin C5:foo
+```
