@@ -252,14 +252,12 @@ git push origin foo:master
 git push origin C5:foo
 ```
 
-#### Level 7.6 [1 extra step it seems]
+#### Level 7.6 [3 instead of 4!]
 
 ```
-git fetch origin foo:master
-git fetch origin master:foo
-git checkout foo
-git reset C3
-git merge master
+git pull origin master~1:foo
+git pull origin foo:master
+git checkout -B foo HEAD
 ```
 
 #### Level 7.7
