@@ -238,16 +238,40 @@ git pull --rebase
 git push
 ```
 
-### Level 7.4
+#### Level 7.4
 
 ```
 git push origin master
 git push origin foo
 ```
 
-### Level 7.5
+#### Level 7.5
 
 ```
 git push origin foo:master
 git push origin C5:foo
+```
+
+#### Level 7.6 [1 extra step it seems]
+
+```
+git fetch origin foo:master
+git fetch origin master:foo
+git checkout foo
+git reset C3
+git merge master
+```
+
+#### Level 7.7
+
+```
+git push origin :foo
+git fetch origin :bar
+```
+
+#### Level 7.8
+
+```
+git pull origin bar:foo
+git pull origin master:side
 ```
