@@ -210,12 +210,12 @@ git push
 #### Level 7.1 [Worth Looking at again to get this down to 6 steps!]
 
 ```
-git fetch origin master:master
-git rebase side2
-git rebase side1
-git rebase master
+git rebase side1 side2
+git rebase side2 side3
+git fetch
+git rebase o/master
 git branch -f master side3
-git push origin master:master
+git push origin master
 ```
 
 #### Level 7.2 [Ugh merge]
