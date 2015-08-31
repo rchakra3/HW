@@ -1,7 +1,7 @@
 # DevOps HW0
 
 ## Table of Contents
-  * [Git Branching Levels Code](#git-branching)
+  * [Git Branching Levels](#git-branching)
   * [Screenshots](#git-branching-screenshot)
   * [Git Hooks Screencast](#git-hooks-screencast)
   * [Post-Commit Hook Code](#git-hooks-code)
