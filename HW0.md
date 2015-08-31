@@ -2,8 +2,9 @@
 
 ## Table of Contents
   * [Git Branching Levels Code](#git-branching)
-  * [Git Branching Levels](#git-branching-screenshot)
+  * [Screenshots](#git-branching-screenshot)
   * [Git Hooks Screencast](#git-hooks-screencast)
+  * [Post-Commit Hook Code](#git-hooks-code)
 
 ## Git Branching <a id="git-branching"></a>
 
@@ -280,9 +281,18 @@ git pull origin master:side
 ```
 
 
-## Git Branching Screenshot <a id="git-branching-screenshot"></a>
+## Git Branching Screenshots <a id="git-branching-screenshot"></a>
+![Basic Git commands](screenshots/screenshot1.png)
 
+![Working with Remote repos](screenshots/screenshot2.png)
 
 ##  Hooks Screencast <a id="git-hooks-screencast"></a>
 
-[Link](screencast/DevOps_HW0.mp4)
+[Screencast Link](screencast/DevOps_HW0.mp4)
+
+##  Hooks Code <a id="git-hooks-code"></a>
+
+```
+#!/bin/bash
+xdg-open http://giphy.com/gifs/excited-the-office-celebrate-Is1O1TWV0LEJi
+```
