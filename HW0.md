@@ -1,6 +1,11 @@
-# HW0
+# DevOps HW0
 
-## Git Branching
+## Table of Contents
+  * [Git Branching Levels Code](#git-branching)
+  * [Git Branching Levels](#git-branching-screenshot)
+  * [Git Hooks Screencast](#git-hooks-screencast)
+
+## Git Branching <a id="git-branching"></a>
 
 ### Introduction Sequence
 #### Level 1.1
@@ -273,3 +278,11 @@ git fetch origin :bar
 git pull origin bar:foo
 git pull origin master:side
 ```
+
+
+## Git Branching Screenshot <a id="git-branching-screenshot"></a>
+
+
+##  Hooks Screencast <a id="git-hooks-screencast"></a>
+
+[Link](screencast/DevOps_HW0.mp4)
