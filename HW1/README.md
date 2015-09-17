@@ -2,7 +2,8 @@
 
 ## Screencast
 
-[Link](screencast/final_screencast.mp4)
+[YouTube Link](https://youtu.be/yMcCipG_k1w)
+[Download Link](screencast/final_screencast.mp4)
 
 ## Basic Setup
 
