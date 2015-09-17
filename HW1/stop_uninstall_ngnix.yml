@@ -1,0 +1,10 @@
+- hosts: all
+  tasks:
+   - name: Stop Nginx
+     service: name=nginx state=stopped
+   - name: Uninstall Nginx
+     apt: pkg=nginx state=absent update_cache=true
+     sudo: yes
+   - name: Remove packages that are no longer required
+     command: apt-get -y autoremove
+     sudo: yes

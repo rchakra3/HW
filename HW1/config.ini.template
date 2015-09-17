@@ -1,0 +1,12 @@
+[azure]
+subscription_id = 
+mgmt_cert_path = 
+vm_cert_path = 
+vm_cert_thumbprint = 
+vm_pub_key_path = 
+vm_pvt_key_path = 
+
+[digitalocean]
+access_token = 
+ssh_key = 
+ssh_pub_key_path = 
